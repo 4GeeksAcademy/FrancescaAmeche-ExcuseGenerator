@@ -32,4 +32,6 @@ let generateExcuse = () => {
   );
 };
 
-document.getElementById("excuse").innerHTML = generateExcuse();
+window.onload = function() {
+  document.getElementById("excuse").innerHTML = generateExcuse();
+};
