@@ -17,18 +17,18 @@ let generateExcuse = () => {
     "while I was praying"
   ];
 
-  let whoIndex = Math.floor(Math.random() * who.length);
-  let actionIndex = Math.floor(Math.random() * action.length);
-  let whatIndex = Math.floor(Math.random() * what.length);
-  let whenIndex = Math.floor(Math.random() * when.length);
+  let whoRandom = Math.floor(Math.random() * who.length);
+  let actionRandom = Math.floor(Math.random() * action.length);
+  let whatRandom = Math.floor(Math.random() * what.length);
+  let whenRandom = Math.floor(Math.random() * when.length);
   return (
-    who[whoIndex] +
+    who[whoRandom] +
     " " +
-    action[actionIndex] +
+    action[actionRandom] +
     " " +
-    what[whatIndex] +
+    what[whatRandom] +
     " " +
-    when[whenIndex]
+    when[whenRandom]
   );
 };
 
