@@ -17,8 +17,8 @@ let when = [
 ];
 
 function getRandomIndex(array) {
-  let Randomindex = Math.floor(Math.random() * array.length);
-  return Randomindex;
+  let randomIndex = Math.floor(Math.random() * array.length);
+  return randomIndex;
 }
 
 function generateExcuse() {
